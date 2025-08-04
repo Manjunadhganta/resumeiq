@@ -1,9 +1,9 @@
 import { Link, useNavigate, useParams } from "react-router"
 import { useState ,useEffect } from "react";
 import { usePuterStore } from "~/lib/puter";
-import Summary from "~/components/Summary";
-import Ats from "~/components/Ats";
-import Details from "~/components/Details";
+import Summary from "../components/Summary";
+import Ats from "../components/Ats";
+import Details from "../components/Details";
 
 export const meta = () => ([
     { title: 'ResumeIQ | Review' },
